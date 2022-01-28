@@ -27,11 +27,11 @@ Table consisting of the following columns is required to be created:
 ---
 
 For this task following data tables were used:
-covid19_tests
-countries
-economies
-religions
-weather
+covid19_tests,
+countries,
+economies,
+religions,
+weather.
 
 Each tables consists of various data sets for different amount of countries which leads to several issues:
 -there is not enough data for all of the countries, e.g. there are some data on performed COVID tests missing in several important economies such as Germany, China, Brazil, Hong Kong, Netherlands, Singapore, Spain. Also not all of the data is consistent: several countries have different names in different tables, e.g. Czech Republic and Czechia, US and United Sates, South Korea and Korea, South, Russia and Russian Federation (the names of the countries were changed accordingly to allow joining tables in only in several cases).  Also there is inconsistency in terms of capital city names lie Praha > Prague, Warszawa > Warsaw (names in such cases were changed). 
